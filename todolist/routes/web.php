@@ -9,9 +9,8 @@ Route::get('/', function () {
     return view('task.index');
 });
 */
+//muestra la vista del controlador de tareas
+Route::get('/', [TaskController::class, 'index']);
 
 //recepciona los datos del metodo post
-Route::get('/', [TaskController::class, 'index']);
-Route::post('/', function () {
-    print_r($_POST);
-});
+Route::post('/', [TaskController::class, 'store']);
