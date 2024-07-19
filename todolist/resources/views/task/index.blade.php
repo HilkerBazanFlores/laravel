@@ -15,5 +15,18 @@
 
 </form>
 
+<table border="1">
+  <tr>
+    <td> Nombre de la tarea </td>
+    <td> Acción </td>
+  </tr>
+
+  <tr>
+    <td> Hacer una plicación en laravel </td>
+    <td> X </td>
+  </tr>
+
+</table>
+
 </body>
 </html>
