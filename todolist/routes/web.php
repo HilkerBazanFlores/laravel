@@ -14,3 +14,6 @@ Route::get('/', [TaskController::class, 'index']);
 
 //recepciona los datos del metodo post
 Route::post('/', [TaskController::class, 'store']);
+
+//metodo para eliminar los agregados
+Route::delete('/{id}}', [TaskController::class, 'destroy'])->name('task.destroy');
